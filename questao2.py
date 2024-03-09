@@ -1,4 +1,4 @@
-def pertence_fibonacci(n: str):
+def pertence_fibonacci(n: int) -> str:
     """Função que verifica se um número pertence a sequência de Fibonacci"""
     fib_sequence = [0, 1]
     while fib_sequence[-1] < n:
